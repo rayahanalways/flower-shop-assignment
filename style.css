@@ -48,3 +48,74 @@ body {
     font-weight: 700;
     font-size: 16px;
 }
+
+/* floewr item started */
+.flower-item-1 img,
+.flower-item-2 img,
+{
+width: 325px;
+}
+
+.flower-item-3 img {
+    width: 300px;
+}
+
+.flower-item-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 100px;
+}
+
+.flower-item-description {
+    color: #27272799;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 24px 0;
+}
+
+.flower-item-1 {
+    width: 400px;
+    height: 450px;
+    background: #F2DEE7;
+    border-radius: 300px 300px 0px 0px;
+
+}
+
+
+.flower-item-2 {
+    width: 400px;
+    height: 450px;
+    background: #D9EFF1;
+    border-radius: 300px 300px 0px 0px;
+}
+
+.flower-item-3 {
+    width: 400px;
+    height: 450px;
+    background: #E3EBDB;
+    border-radius: 300px 300px 0px 0px;
+}
+
+.flower-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flower-name-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flower-name {
+    width: 190px;
+    height: 35px;
+    color: #272727;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 100px;
+    margin-top: 20px;
+
+}
