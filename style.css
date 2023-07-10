@@ -1,4 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Lato', sans-serif;
 
+}
+
+.header {
+    background: #E554731A;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 100px;
+
+}
+
+.header img {
+    width: 400px;
+}
+
+.flower-banner {
+    width: 600px;
+}
+
+.flower-title {
+    color: #272727;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.flower-description {
+    color: #27272799;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.btn-flower {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 10px 20px;
+    border: 0;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
 }
