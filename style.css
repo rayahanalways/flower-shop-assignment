@@ -123,13 +123,60 @@ width: 325px;
 /* service item started */
 .service-container {
     display: flex;
-    gap: 100px;
-    justify-content: center;
+    justify-content: space-around;
     background: #2727270D;
     padding: 80px 100px;
     margin-bottom: 100px;
 
 }
-.service-description {
-    text-align: left;
+
+/* discount section started */
+.discount-section {
+    background: #E554730D;
+}
+
+.discount-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.discount-description {
+    color: #27272799;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.discount {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.discount-button {
+    border-radius: 5px;
+    background: #E55473;
+    border: 0;
+    padding: 10px 25px;
+    color: white;
+    margin-top: 24px;
+    margin-left: 200px;
+
+}
+
+.discount-container {
+    width: 594px;
+}
+
+.discount-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 200px;
 }
