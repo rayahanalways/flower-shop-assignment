@@ -1,268 +1,43 @@
-* {
+*{
     margin: 0;
     padding: 0;
 }
-
 body {
     font-family: 'Lato', sans-serif;
-
 }
 
-/* common styles shared */
-.section-title {
-    color: #272727;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 800;
-    margin-bottom: 24px;
-}
-
-.section-description {
-    color: #27272799;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-    margin-bottom: 48px;
-}
-
-.header {
+.header-section {
     background: #E554731A;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 50px 100px;
-
 }
-
-.header img {
-    width: 400px;
+.header-section img {
+    width: 500px;
 }
-
-.flower-banner {
-    width: 600px;
+.header {
+    width: 500px;
 }
-
 .flower-title {
     color: #272727;
     font-size: 50px;
     font-weight: 800;
-    margin-bottom: 20px;
+    margin-bottom: 32px;
 }
 
 .flower-description {
     color: #27272799;
     font-size: 18px;
     font-weight: 400;
-    margin-bottom: 20px;
-}
-
-.btn-flower {
-    border-radius: 8px;
-    background: #E55473;
-    padding: 10px 20px;
-    border: 0;
-    color: white;
-    font-weight: 700;
-    font-size: 16px;
-}
-
-/* flower item started */
-.flower-item-1 img {
-    width: 325px;
-}
-
-.flower-item-2 img {
-    width: 400px;
-}
-
-.flower-item-3 img {
-    width: 300px;
-
-}
-
-.flower-item-title {
-    color: #272727;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 800;
-    margin-top: 100px;
-}
-
-.flower-item-description {
-    color: #27272799;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-    margin: 24px 0;
-}
-
-.flower-item-1 {
-    width: 400px;
-    height: 450px;
-    background: #F2DEE7;
-    border-radius: 300px 300px 0px 0px;
-
-}
-
-
-.flower-item-2 {
-    width: 400px;
-    height: 450px;
-    background: #D9EFF1;
-    border-radius: 300px 300px 0px 0px;
-}
-
-.flower-item-3 {
-    width: 400px;
-    height: 450px;
-    background: #E3EBDB;
-    border-radius: 300px 300px 0px 0px;
-}
-
-.flower-container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.flower-name-container {
-    display: flex;
-    justify-content: space-around;
-}
-
-.flower-name {
-    width: 190px;
-    height: 35px;
-    color: #272727;
-    font-size: 20px;
-    font-weight: 700;
-    margin-bottom: 100px;
-    margin-top: 20px;
-
-}
-
-/* service item started */
-.service-container {
-    display: flex;
-    justify-content: space-around;
-    background: #2727270D;
-    padding: 80px 100px;
-    margin-bottom: 100px;
-
-}
-
-/* discount section started */
-.discount-section {
-    background: #E554730D;
-}
-
-.discount-title {
-    color: #272727;
-    font-size: 40px;
-    font-weight: 800;
-    margin-bottom: 24px;
-    text-align: center;
-}
-
-.discount-description {
-    color: #27272799;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.discount {
-    color: #E55473;
-    font-family: Lato;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
-
-.discount-button {
-    border-radius: 5px;
-    background: #E55473;
-    border: 0;
-    padding: 10px 25px;
-    color: white;
-    margin-top: 24px;
-    margin-left: 200px;
-
-}
-
-.discount-container {
-    width: 594px;
-}
-
-.discount-section {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 100px 200px;
-}
-
-/* instagram styles start */
-
-
-.instagram-banner-container {
-    display: flex;
-    justify-content: space-around;
-    padding: 0 100px;
-    margin-bottom: 100px;
-
-}
-
-.instagram img {
-    width: 250px;
-}
-
-/* instagram banner end  */
-
-/* deal section starterd  */
-
-/* .deal-section {
-    background: url('images/flower5.png');
-    height: 400px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-#deal {
-    padding-top: 100px;
-} */
-
-/* footer section started  */
-.footer {
-    height: 449px;
-    background: #111010;
-}
-
-.footer-title {
-    color: #fff;
-    font-size: 48px;
-    font-weight: 800;
-    text-align:center;
-    padding: 100px 0 24px 0;
-}
-
-.footer-color {
-    color: #E55473;
-    font-size: 48px;
-    font-weight: 800;
-}
-
-.footer-description {
-    color: #fff;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
     margin-bottom: 32px;
 }
+ 
 
-.footer-copyright {
+.flower-button {
     color: #fff;
-    text-align: right;
-    font-size: 16px;
-    font-weight: 400;
-    text-align: center;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    padding: 18px 27px;
 }
