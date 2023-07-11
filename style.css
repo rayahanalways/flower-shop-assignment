@@ -141,6 +141,47 @@ body {
 }
 
 /* service section end  */
+/* deal section  */
+.deal-section {
+    background: #E554730D;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px 100px;
+
+}
+
+.deal-items {
+    width: 500px;
+}
+
+.deal-title {
+    color: #272727;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.del-description {
+    color: #27272799;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.deal-button {
+    color: #fff;
+    font-size: 16px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    padding: 15px 25px;
+    margin-left: 200px;
+
+}
+ /* deal section end  */
 
 .banner-title {
     color: #272727;
