@@ -122,4 +122,22 @@ body {
 }
 
 
-/* featured section end s */
+/* featured section end  */
+
+.service-section {
+    background: #2727270D;
+    display: flex;
+    justify-content: space-around;
+    margin: 86px 130px;
+    padding: 80px;
+
+}
+
+.service h3 {
+    color: #272727CC;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* service section end  */
