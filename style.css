@@ -119,3 +119,17 @@ width: 325px;
     margin-top: 20px;
 
 }
+
+/* service item started */
+.service-container {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    background: #2727270D;
+    padding: 80px 100px;
+    margin-bottom: 100px;
+
+}
+.service-description {
+    text-align: left;
+}
