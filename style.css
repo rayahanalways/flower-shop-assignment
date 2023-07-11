@@ -141,3 +141,32 @@ body {
 }
 
 /* service section end  */
+
+.banner-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    color: #27272799;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.banner-item-container img {
+    max-width: 250px;
+}
+
+.banner-item-container {
+    display: flex;
+    gap: 40px;
+    padding: 0 100px;
+    margin-bottom: 80px;
+}
+
+/* banner section end  */
