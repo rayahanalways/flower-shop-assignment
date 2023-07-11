@@ -66,6 +66,8 @@ body {
 
 
 /* featured section styles started */
+
+
 .featured-section {
     padding: 100px 130px;
 }
@@ -76,6 +78,16 @@ body {
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 40px;
+}
+
+.featured-name-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.featured-name-container h3 {
+    text-decoration: underline;
+    font-size: 16px;
 }
 
 .featured-description {
@@ -133,11 +145,10 @@ body {
 
 }
 
-.service h3 {
+.service h4 {
     color: #272727CC;
+    font-size: 16px;
     text-align: center;
-    font-size: 15px;
-    font-weight: 600;
 }
 
 /* service section end  */
@@ -149,6 +160,10 @@ body {
     justify-content: space-around;
     padding: 80px 100px;
 
+}
+
+.deal-color {
+    color: #E55473;
 }
 
 .deal-items {
@@ -181,7 +196,8 @@ body {
     margin-left: 200px;
 
 }
- /* deal section end  */
+
+/* deal section end  */
 
 .banner-title {
     color: #272727;
@@ -211,3 +227,54 @@ body {
 }
 
 /* banner section end  */
+
+/* latest section started */
+.form-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    padding-top: 100px;
+}
+
+.form-description {
+    color: #27272799;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.latest-section {
+    background-image: url('images/flower5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 90%;
+    margin: 80px auto;
+}
+
+.form-section {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.contact input[type="email"] {
+    width: 500px;
+    padding: 15px 10px;
+    border-radius: 5px;
+    background: #fff;
+    border: 0;
+}
+
+.contact input[type="submit"] {
+    padding: 10px 20px;
+    color: #FFF;
+    font-size: 20px;
+    background: #E55473;
+    border-radius: 5px;
+    border: 0;
+}
