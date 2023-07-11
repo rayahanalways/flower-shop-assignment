@@ -1,24 +1,46 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: 'Lato', sans-serif;
 }
 
+/* common shared styles  */
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.section-description {
+    color: #27272799;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+/* header section styles started */
 .header-section {
     background: #E554731A;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 100px;
+    padding: 50px 140px;
 }
+
 .header-section img {
-    width: 500px;
+    width: 400px;
 }
+
 .header {
     width: 500px;
 }
+
 .flower-title {
     color: #272727;
     font-size: 50px;
@@ -32,7 +54,7 @@ body {
     font-weight: 400;
     margin-bottom: 32px;
 }
- 
+
 
 .flower-button {
     color: #fff;
@@ -41,3 +63,63 @@ body {
     border: 0;
     padding: 18px 27px;
 }
+
+
+/* featured section styles started */
+.featured-section {
+    padding: 100px 130px;
+}
+
+.featured-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.featured-description {
+    color: #27272799;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.featured-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured-item img {
+    max-width: 300px;
+}
+
+.flower-item-pink {
+    background: #A7216226;
+    width: 300px;
+    height: 400px;
+    background-image: url('images/pngwing 6.png');
+    background-repeat: no-repeat;
+    border-radius: 300px 300px 0px 0px;
+}
+
+.flower-item-green {
+    background: #0597A026;
+    width: 300px;
+    height: 400px;
+    background-image: url('images/pngwing 5.png');
+    background-repeat: no-repeat;
+    border-radius: 300px 300px 0px 0px;
+}
+
+.flower-item-blue {
+    width: 300px;
+    height: 400px;
+    background: #477D1126;
+    background-image: url('images/pngwing 7.png');
+    border-radius: 300px 300px 0px 0px;
+}
+
+
+/* featured section end s */
